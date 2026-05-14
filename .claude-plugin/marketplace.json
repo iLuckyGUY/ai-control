@@ -1,18 +1,18 @@
 {
-  "name": "desktop-commander",
+  "name": "ai-control",
   "owner": {
-    "name": "Desktop Commander",
-    "email": "es@desktopcommander.app"
+    "name": "luckyguy",
+    "email": "luckyguy@icloud.com"
   },
   "metadata": {
-    "description": "MCP server for terminal commands, process management, and file operations across text, code, PDF, DOCX, Excel, images, and structured data",
-    "version": "0.1.0"
+    "description": "MCP server for terminal commands, process management, file operations, Docker, and AppleScript across text, code, PDF, DOCX, Excel, images, and structured data",
+    "version": "1.0.0"
   },
   "plugins": [
     {
-      "name": "desktop-commander",
+      "name": "ai-control",
       "source": "./plugins/claude",
-      "description": "MCP server for terminal commands, process management, and file operations across text, code, PDF, DOCX, Excel, images, and structured data"
+      "description": "MCP server for terminal commands, process management, file operations, Docker, and AppleScript across text, code, PDF, DOCX, Excel, images, and structured data"
     }
   ]
 }

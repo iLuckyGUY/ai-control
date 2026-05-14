@@ -1,19 +1,19 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.wonderwhy-er/desktop-commander",
-  "title": "Desktop Commander",
-  "description": "MCP server for terminal commands, file operations, and process management",
+  "name": "ai-control",
+  "title": "AI Control",
+  "description": "MCP server for full computer control — terminal, filesystem, Docker, AppleScript, processes, and documents",
   "repository": {
-    "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+    "url": "https://github.com/iLuckyGUY/ai-control",
     "source": "github"
   },
-  "version": "0.2.40",
+  "version": "1.0.0",
   "packages": [
     {
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
-      "identifier": "@wonderwhy-er/desktop-commander",
-      "version": "0.2.40",
+      "identifier": "ai-control",
+      "version": "1.0.0",
       "transport": {
         "type": "stdio"
       }

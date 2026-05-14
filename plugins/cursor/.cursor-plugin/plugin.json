@@ -1,17 +1,17 @@
 {
-  "name": "desktop-commander",
-  "displayName": "Desktop Commander",
-  "version": "0.1.0",
-  "description": "MCP server for terminal commands, process management, and file operations across text, code, PDF, DOCX, Excel, images, and structured data",
+  "name": "ai-control",
+  "displayName": "AI Control",
+  "version": "1.0.0",
+  "description": "MCP server for terminal commands, process management, file operations, Docker, and AppleScript across text, code, PDF, DOCX, Excel, images, and structured data",
   "author": {
-    "name": "Desktop Commander",
-    "email": "es@desktopcommander.app"
+    "name": "luckyguy",
+    "email": "luckyguy@icloud.com"
   },
-  "publisher": "Desktop Commander",
-  "homepage": "https://desktopcommander.app",
-  "repository": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+  "publisher": "luckyguy",
+  "homepage": "https://github.com/iLuckyGUY/ai-control",
+  "repository": "https://github.com/iLuckyGUY/ai-control",
   "license": "MIT",
-  "logo": "https://raw.githubusercontent.com/wonderwhy-er/DesktopCommanderMCP/main/logo.png",
+  "logo": "https://raw.githubusercontent.com/iLuckyGUY/ai-control/main/logo.png",
   "keywords": [
     "shell",
     "terminal",
@@ -21,7 +21,7 @@
     "pdf",
     "spreadsheet",
     "knowledge-base",
-    "desktop-commander"
+    "ai-control"
   ],
   "category": "developer-tools",
   "tags": [
@@ -33,9 +33,9 @@
   "skills": "./skills/",
   "rules": "./rules/",
   "mcpServers": {
-    "desktop-commander": {
+    "ai-control": {
       "command": "npx",
-      "args": ["-y", "@wonderwhy-er/desktop-commander@latest"]
+      "args": ["-y", "ai-control"]
     }
   }
 }

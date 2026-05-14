@@ -38,9 +38,9 @@ export async function openBrowser(url: string): Promise<void> {
 }
 
 /**
- * Open the Desktop Commander welcome page
+ * Open the welcome page
  */
 export async function openWelcomePage(): Promise<void> {
-  const url = 'https://desktopcommander.app/welcome/';
+  const url = 'https://github.com/iLuckyGUY/ai-control#readme';
   await openBrowser(url);
 }

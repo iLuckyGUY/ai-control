@@ -1,24 +1,23 @@
 {
   "$schema": "../../dist/mcpb-manifest.schema.json",
   "manifest_version": "0.3",
-  "name": "desktop-commander",
-  "display_name": "Desktop Commander",
+  "name": "ai-control",
+  "display_name": "AI Control",
   "version": "{{VERSION}}",
-  "description": "Build, explore, and automate on your local machine with access to files and terminal.",
-  "long_description": "Combine local filesystem access with full terminal control to handle technical tasks through natural language. Desktop Commander empowers you to build, explore, and automate - from organizing repositories to creating complete applications:\n* **Build from scratch** - Create features and applications with simple commands\n* **Manage development environments** - Set up servers, configure systems, and handle processes\n* **Manage context and documentation** - Keep track of project details and technical specifications\n* **Explore existing codebases and projects** - Navigate and understand complex repositories\n\nThis extension bridges technical skill gaps by providing full command-line superpowers through an interface that understands your intent and handles complexity automatically.",
+  "description": "Build, explore, and automate on your local machine with access to files, terminal, Docker, and AppleScript.",
+  "long_description": "Combine local filesystem access with full terminal control to handle technical tasks through natural language. AI Control empowers you to build, explore, and automate — from organizing repositories to creating complete applications:\n* **Build from scratch** — Create features and applications with simple commands\n* **Manage development environments** — Set up servers, configure systems, and handle processes\n* **Manage context and documentation** — Keep track of project details and technical specifications\n* **Explore existing codebases and projects** — Navigate and understand complex repositories\n* **macOS automation** — Control apps via AppleScript, manage Docker containers, check system health",
   "author": {
-    "name": "Desktop Commander Team",
-    "email": "er@desktopcommander.app",
-    "url": "https://desktopcommander.app/"
+    "name": "luckyguy",
+    "email": "luckyguy@icloud.com",
+    "url": "https://github.com/iLuckyGUY"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP.git"
+    "url": "https://github.com/iLuckyGUY/ai-control.git"
   },
-  "homepage": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-  "documentation": "https://github.com/wonderwhy-er/DesktopCommanderMCP/blob/main/FAQ.md",
-  "support": "https://github.com/wonderwhy-er/DesktopCommanderMCP/issues",
-  "privacy_policies": ["https://legal.desktopcommander.app/privacy_desktop_commander_mcp"],
+  "homepage": "https://github.com/iLuckyGUY/ai-control",
+  "documentation": "https://github.com/iLuckyGUY/ai-control/blob/main/README.md",
+  "support": "https://github.com/iLuckyGUY/ai-control/issues",
   "icon": "icon.png",
   "server": {
     "type": "node",
@@ -124,25 +123,37 @@
       "description": "Terminate a running process by PID. Use with caution."
     },
     {
+      "name": "applescript",
+      "description": "Run AppleScript for GUI automation on macOS — control Finder, apps, system dialogs."
+    },
+    {
+      "name": "docker_command",
+      "description": "Execute Docker or Docker Compose commands directly. Auto-prepends 'docker' if not specified."
+    },
+    {
+      "name": "system_info",
+      "description": "Get real-time macOS system information: CPU model, uptime, memory, and disk usage."
+    },
+    {
       "name": "get_usage_stats",
       "description": "Get usage statistics for debugging and analysis including tool usage and performance metrics."
     },
     {
       "name": "get_recent_tool_calls",
-      "description": "Get recent tool call history with their arguments and outputs. Returns chronological list of tool calls made during this session for debugging, context recovery, and onboarding new chats."
+      "description": "Get recent tool call history with their arguments and outputs. Useful for context recovery."
     },
     {
-      "name": "give_feedback_to_desktop_commander",
-      "description": "Open feedback form in browser to provide feedback about Desktop Commander."
+      "name": "give_feedback",
+      "description": "Open feedback form in browser to provide feedback about AI Control."
     },
     {
       "name": "get_prompts",
-      "description": "Browse and retrieve curated Desktop Commander prompts for various tasks and workflows."
+      "description": "Browse and retrieve curated AI Control prompts for various tasks and workflows."
     }
   ],
   "keywords": [
     "orchestration",
-    "workflow", 
+    "workflow",
     "development",
     "prototyping",
     "terminal",
@@ -154,7 +165,10 @@
     "data-analysis",
     "docx",
     "pdf",
-    "excel"
+    "excel",
+    "docker",
+    "applescript",
+    "macos"
   ],
   "license": "MIT",
   "compatibility": {
